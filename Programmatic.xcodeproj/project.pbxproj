@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175472C726FF58350089E0F9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175472C626FF58350089E0F9 /* Page.swift */; };
+		177B55FC27004FBD0036E85C /* SwipingController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B55FB27004FBD0036E85C /* SwipingController+extension.swift */; };
+		177B55FE2700507C0036E85C /* SwipingController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B55FD2700507C0036E85C /* SwipingController+CollectionView.swift */; };
+		1792FF3626EFBD9D008EDB98 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792FF3526EFBD9D008EDB98 /* SwipingController.swift */; };
+		1792FF3826EFC61B008EDB98 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792FF3726EFC61B008EDB98 /* PageCell.swift */; };
 		17B9EFF426ECA388006A813D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9EFF326ECA388006A813D /* AppDelegate.swift */; };
 		17B9EFF626ECA388006A813D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9EFF526ECA388006A813D /* SceneDelegate.swift */; };
 		17B9EFF826ECA388006A813D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9EFF726ECA388006A813D /* ViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175472C626FF58350089E0F9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		177B55FB27004FBD0036E85C /* SwipingController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+extension.swift"; sourceTree = "<group>"; };
+		177B55FD2700507C0036E85C /* SwipingController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+CollectionView.swift"; sourceTree = "<group>"; };
+		1792FF3526EFBD9D008EDB98 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		1792FF3726EFC61B008EDB98 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		17B9EFF026ECA388006A813D /* Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Programmatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B9EFF326ECA388006A813D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B9EFF526ECA388006A813D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 		17B9EFF226ECA388006A813D /* Programmatic */ = {
 			isa = PBXGroup;
 			children = (
+				177B55FB27004FBD0036E85C /* SwipingController+extension.swift */,
 				17B9EFF326ECA388006A813D /* AppDelegate.swift */,
 				17B9EFF526ECA388006A813D /* SceneDelegate.swift */,
 				17B9EFF726ECA388006A813D /* ViewController.swift */,
@@ -109,6 +120,10 @@
 				17B9F00126ECA38E006A813D /* LaunchScreen.storyboard */,
 				17B9F00426ECA38E006A813D /* Info.plist */,
 				17B9EFFC26ECA388006A813D /* Programmatic.xcdatamodeld */,
+				1792FF3526EFBD9D008EDB98 /* SwipingController.swift */,
+				1792FF3726EFC61B008EDB98 /* PageCell.swift */,
+				175472C626FF58350089E0F9 /* Page.swift */,
+				177B55FD2700507C0036E85C /* SwipingController+CollectionView.swift */,
 			);
 			path = Programmatic;
 			sourceTree = "<group>";
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177B55FE2700507C0036E85C /* SwipingController+CollectionView.swift in Sources */,
 				17B9EFF826ECA388006A813D /* ViewController.swift in Sources */,
 				17B9EFF426ECA388006A813D /* AppDelegate.swift in Sources */,
+				1792FF3826EFC61B008EDB98 /* PageCell.swift in Sources */,
+				177B55FC27004FBD0036E85C /* SwipingController+extension.swift in Sources */,
 				17B9EFF626ECA388006A813D /* SceneDelegate.swift in Sources */,
+				175472C726FF58350089E0F9 /* Page.swift in Sources */,
+				1792FF3626EFBD9D008EDB98 /* SwipingController.swift in Sources */,
 				17B9EFFE26ECA388006A813D /* Programmatic.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
